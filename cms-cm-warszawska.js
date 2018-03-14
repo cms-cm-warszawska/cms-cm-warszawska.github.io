@@ -127,7 +127,7 @@ var cmsTexts = {
   "USG tarczycy",
   
   usgCennik__wiersz2__cena:
-  "60 zł",
+  "70 zł",
   
   usgCennik__wiersz3__tytul:
   "USG piersi ",
@@ -139,7 +139,7 @@ var cmsTexts = {
   "USG układu moczowego",
   
   usgCennik__wiersz4__cena:
-  "70 zł",
+  "60 zł",
   
   usgCennik__wiersz5__tytul:
   "USG brzucha z oceną gruczołu krokowego",
@@ -172,45 +172,69 @@ var cmsTexts = {
   "60 zł",
   
   usgCennik__wiersz10__tytul:
-  "USG Doppler aorty i tętnic biodrowych",
+  "USG jąder",
   
   usgCennik__wiersz10__cena:
-  "120 zł",
+  "70 zł",
   
   usgCennik__wiersz11__tytul:
-  "USG Doppler żył lub tętnic kończyn dolnych",
+  "Doppler aorty i tętnic biodrowych",
   
   usgCennik__wiersz11__cena:
-  "-",
+  "120 zł",
   
   usgCennik__wiersz12__tytul:
-  "– obie kończyny dolne",
+  "Doppler żył kończyn dolnych",
   
   usgCennik__wiersz12__cena:
   "110 zł",
   
   usgCennik__wiersz13__tytul:
-  "– jedna kończyna dolna",
+  "Doppler tętnic kończyn dolnych",
   
   usgCennik__wiersz13__cena:
-  "80 zł",
+  "110 zł",
   
   usgCennik__wiersz14__tytul:
-  "USG Doppler tętnic szyjnych i kręgowych",
+  "Doppler żył lub tętnic 1 kończyny dolnej",
   
   usgCennik__wiersz14__cena:
-  "90 zł",
+  "80 zł",
   
   usgCennik__wiersz15__tytul:
-  "USG Doppler tętnic nerkowych",
+  "Doppler żył kończyn górnych",
   
   usgCennik__wiersz15__cena:
-  "140 zł",  
+  "110 zł",  
   
   usgCennik__wiersz16__tytul:
-  "",
+  "Doppler tętnic kończyn górnych",
   
   usgCennik__wiersz16__cena:
-  "",  
+  "110 zł",
+  
+  usgCennik__wiersz17__tytul:
+  "Doppler tętnic szyjnych i kręgowych",
+  
+  usgCennik__wiersz17__cena:
+  "100 zł", 
+  
+  usgCennik__wiersz18__tytul:
+  "Doppler układu żyły wrotnej",
+  
+  usgCennik__wiersz18__cena:
+  "110 zł", 
+  
+  usgCennik__wiersz19__tytul:
+  "Doppler tętnic nerkowych",
+  
+  usgCennik__wiersz19__cena:
+  "120 zł", 
+  
+  usgCennik__wiersz20__tytul:
+  "",
+  
+  usgCennik__wiersz20__cena:
+  "", 
   
 }
