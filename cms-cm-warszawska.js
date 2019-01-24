@@ -61,13 +61,13 @@ var cmsTexts = {
   "lek. med. Wojciech Budny - specjalista chorób wewnętrznych",
   
   rodzinnaLekarz4:
-  "piel. Irena Dawidowicz - specjalista pielęgniarstwa pediatrycznego",
+  "piel. Irena Dawidowicz - specjalista pielęgniarstwa pediatrycznego, pielęgniarka szczepienna",
   
   rodzinnaLekarz5:
-  "mgr piel. Urszula Moniuszko - specjalista pielęgniarstwa anestezjologicznego i intensywnej opieki",
+  "piel. Anna Zalewska – pielęgniarka środowiskowo-rodzinna i szczepienna",
   
   rodzinnaLekarz6:
-  "piel. Katarzyna Jasińska",
+  "piel. Kinga Sićko",
   
   rodzinnaLekarz7:
   "mgr położna Katarzyna Kitlasz - Baczyńska",
