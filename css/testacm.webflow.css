@@ -837,7 +837,7 @@ a {
 
 .news-content-text {
   margin-top: 25px;
-  margin-bottom: 37px;
+  margin-bottom: 16px;
   font-size: 18px;
   line-height: 24px;
   list-style-type: disc;
@@ -1132,6 +1132,10 @@ a {
   background-color: #f6f6f6;
 }
 
+.content-paragraph.hours-box.is-hidden-for-future {
+  display: none;
+}
+
 .content-paragraph.gray {
   color: #707070;
 }
@@ -1143,6 +1147,10 @@ a {
 .subnav-section {
   padding-top: 40px;
   padding-bottom: 10px;
+}
+
+.subnav-section.is-hidden-for-future {
+  display: none;
 }
 
 .cm-content-image {
