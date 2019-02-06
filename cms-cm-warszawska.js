@@ -70,7 +70,7 @@ var cmsTexts = {
   "piel. Kinga Sićko",
   
   rodzinnaLekarz7:
-  "mgr położna Katarzyna Kitlasz - Baczyńska",
+  "mgr położna Katarzyna Kitlasz-Baczyńska - położna środowiskowo-rodzinna, edukator laktacyjny",
   
   rodzinnaLekarz8:
   "",
