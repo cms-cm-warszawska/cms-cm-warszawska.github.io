@@ -1078,6 +1078,7 @@ a {
   color: hsla(0, 0%, 100%, .64);
   font-size: 12px;
   line-height: 15px;
+  text-align: center;
 }
 
 .additional-contact-row {
