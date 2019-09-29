@@ -88,7 +88,7 @@ a {
 
 .button:hover {
   background-color: #3c477a;
-  box-shadow: 0 3px 10px -1px rgba(0, 0, 0, .56);
+  box-shadow: 0 3px 10px -1px rgba(0, 0, 0, 0.56);
 }
 
 .button:active {
@@ -124,7 +124,7 @@ a {
 }
 
 .button.small:hover {
-  box-shadow: 0 3px 10px -1px rgba(0, 0, 0, .3), inset 0 1px 0 0 hsla(0, 0%, 100%, .13);
+  box-shadow: 0 3px 10px -1px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.13);
 }
 
 .button.small:active {
@@ -422,7 +422,7 @@ a {
   min-height: 100px;
   min-width: 100px;
   margin-bottom: 102px;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
 
@@ -517,7 +517,7 @@ a {
   padding-top: 37px;
   border-radius: 50%;
   background-color: #ff9c00;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
   color: #000;
   text-align: center;
 }
@@ -533,7 +533,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 4px;
-  color: dimgray;
+  color: #696969;
   font-size: 16px;
 }
 
@@ -600,7 +600,7 @@ a {
   border-color: #d2d2d2 #eee #eee;
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
-  box-shadow: 0 7px 20px -8px rgba(0, 0, 0, .59);
+  box-shadow: 0 7px 20px -8px rgba(0, 0, 0, 0.59);
 }
 
 .container123-189 {
@@ -728,7 +728,7 @@ a {
   border-left-width: 1px;
   border-radius: 4px;
   background-color: #fff;
-  box-shadow: 0 4px 19px 0 rgba(0, 0, 0, .24);
+  box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.24);
   opacity: 0.95;
   font-size: 12px;
 }
@@ -1039,7 +1039,7 @@ a {
 }
 
 .subnav-link:active {
-  color: hsla(0, 0%, 100%, .83);
+  color: hsla(0, 0%, 100%, 0.83);
   text-decoration: underline;
 }
 
@@ -1075,7 +1075,7 @@ a {
 .additional-contact {
   padding: 13px;
   opacity: 1;
-  color: hsla(0, 0%, 100%, .64);
+  color: hsla(0, 0%, 100%, 0.64);
   font-size: 12px;
   line-height: 15px;
   text-align: center;
@@ -1193,12 +1193,12 @@ a {
 
 .additional-contacts-button {
   padding-bottom: 11px;
-  color: hsla(0, 0%, 100%, .68);
+  color: hsla(0, 0%, 100%, 0.68);
   text-align: center;
 }
 
 .additional-contacts-button:hover {
-  color: hsla(0, 0%, 100%, .99);
+  color: hsla(0, 0%, 100%, 0.99);
 }
 
 .contact-text-above-map {
@@ -1338,7 +1338,7 @@ a {
 }
 
 .cookie-pop__link {
-  color: hsla(228.46153846153845, 64.64%, 54.75%, 1.00);
+  color: #415ed6;
   font-weight: 700;
   text-decoration: none;
 }
