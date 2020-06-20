@@ -202,6 +202,10 @@ a {
   padding: 10px 10px 12px;
 }
 
+.button.is-closed-info {
+  background-color: #962e33;
+}
+
 .image-preview {
   display: block;
   margin-right: auto;
@@ -784,7 +788,8 @@ a {
 .hero_container {
   position: relative;
   z-index: 1;
-  padding-bottom: 137px;
+  padding-top: 86px;
+  padding-bottom: 46px;
 }
 
 .hero-regular {
@@ -793,7 +798,8 @@ a {
 
 .hero-section {
   position: relative;
-  padding-bottom: 5%;
+  padding-top: 0px;
+  padding-bottom: 13%;
   background-image: url('../images/DSC01601big-copy-2-30compress.jpg');
   background-position: 50% 36%;
   background-size: cover;
@@ -1354,6 +1360,29 @@ a {
   margin-top: 33px;
 }
 
+.closed-info {
+  max-width: 590px;
+  margin: 19px auto 58px;
+  padding: 29px;
+  border-radius: 12px;
+  background-color: #fff;
+  background-image: url('../images/zamkniete2.png');
+  background-position: 94% 46%;
+  background-size: 230px;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px 0 rgba(46, 61, 124, 0.29);
+}
+
+.closed-info__h {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.closed-info__p {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
 html.w-mod-js *[data-ix="initial-opacity"] {
   opacity: 0;
   -webkit-transform: scale(0.1, 0.1);
@@ -1376,7 +1405,7 @@ html.w-mod-js *[data-ix="initial-display-none"] {
   display: none;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .navbar {
     margin-bottom: 0px;
     padding-top: 15px;
@@ -1468,6 +1497,10 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     margin-top: 7px;
     margin-left: 10px;
   }
+  .hero_container {
+    padding-top: 0px;
+    padding-bottom: 83px;
+  }
   .footer-left {
     margin-bottom: 11px;
     text-align: center;
@@ -1478,13 +1511,16 @@ html.w-mod-js *[data-ix="initial-display-none"] {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .button.call-us-now {
     font-size: 18px;
   }
   .navbar {
     padding-right: 16px;
     padding-left: 16px;
+  }
+  .hero_text {
+    margin-top: 69px;
   }
   .opinions-row {
     margin-top: 120px;
@@ -1597,9 +1633,13 @@ html.w-mod-js *[data-ix="initial-display-none"] {
   .column-reset-padding.subhead-center {
     text-align: center;
   }
+  .closed-info {
+    background-position: 97% 11%;
+    background-size: 140px;
+  }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .button.small.only-mobile {
     display: inline;
     width: 210px;
@@ -1720,7 +1760,7 @@ html.w-mod-js *[data-ix="initial-display-none"] {
   }
   .hero-section {
     height: 420px;
-    margin-bottom: 279px;
+    margin-bottom: 169px;
   }
   .hero-slide-1 {
     background-position: 57% 50%;
@@ -1729,7 +1769,7 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     background-position: 59% 50%;
   }
   .hero-slide-2.third {
-    background-position: 100% 50%;
+    background-position: 58% 50%;
   }
   .nav-phone-link {
     height: 24px;
@@ -1784,6 +1824,11 @@ html.w-mod-js *[data-ix="initial-display-none"] {
   }
   .maps-img-holder {
     margin-top: 4px;
+  }
+  .closed-info {
+    padding-top: 76px;
+    background-position: 25px 16px;
+    background-size: 100px;
   }
 }
 

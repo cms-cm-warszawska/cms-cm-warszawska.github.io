@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Sep 29 2019 12:56:36 GMT+0000 (UTC)  -->
+<!--  Last Published: Sat Jun 20 2020 10:11:31 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="55ee8dbb8c3a43fa48d62208" data-wf-site="55d576c4965aff177731ada8">
 <head>
   <meta charset="utf-8">
@@ -29,7 +29,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar w-nav">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" role="banner" class="navbar w-nav">
       <div class="w-container"><a href="../index.html" class="brand w-nav-brand"><img src="../images/cmwarszawska-logo-edited.jpg" alt="" class="ale-gramy-logo"></a>
         <div class="nav-phone-box">
           <a href="tel:858755355" class="nav-phone-link w-inline-block">
@@ -46,13 +46,13 @@
             <div class="nav-link w-dropdown-toggle">
               <div>Nasze przychodnie</div>
             </div>
-            <nav class="dropdown-menu w-dropdown-list"><a href="../nasze-przychodnie/poradnia-rodzinna.html" class="dropdown-link poradnia-rodzinna w-dropdown-link">Poradnia Rodzinna <span class="inline-nfz-logo">_</span></a><a href="../nasze-przychodnie/gainet-usg.html" class="dropdown-link gabinet-usg w-dropdown-link">Gabinet Badań USG</a><a href="../nasze-przychodnie/medstyl-medycyna-estetyczna.html" class="dropdown-link medstyl w-dropdown-link"><span class="hero-medstyl-inline">_</span> Medycyna Estetyczna</a></nav>
+            <nav class="dropdown-menu w-dropdown-list"><a href="../nasze-przychodnie/poradnia-rodzinna.html" class="dropdown-link poradnia-rodzinna w-dropdown-link">Poradnia Rodzinna <span class="inline-nfz-logo">_</span></a><a href="../nasze-przychodnie/medstyl-medycyna-estetyczna.html" class="dropdown-link medstyl w-dropdown-link"><span class="hero-medstyl-inline">_</span> Medycyna Estetyczna</a></nav>
           </div>
           <div data-delay="0" class="dropdown-reset w-dropdown">
             <div class="nav-link w-dropdown-toggle">
               <div>Przydatne informacje</div>
             </div>
-            <nav class="dropdown-menu w-dropdown-list"><a href="../przydatne-informacje/przygotowanie-do-usg.html" class="dropdown-link w-dropdown-link w--current">Przygotowanie do USG</a><a href="../przydatne-informacje/kalendarz-szczepien.html" class="dropdown-link w-dropdown-link">Kalendarz szczepień</a></nav>
+            <nav class="dropdown-menu w-dropdown-list"><a href="../przydatne-informacje/kalendarz-szczepien.html" class="dropdown-link w-dropdown-link">Kalendarz szczepień</a></nav>
           </div><a href="../kontakt.html" class="nav-link last-button w-nav-link">Kontakt</a></nav>
         <div class="menu_button_active w-clearfix w-nav-button">
           <div class="menu_icon w-icon-nav-menu"></div>
@@ -66,19 +66,28 @@
           <h2 class="oferta-heading poradnia">Przygotowanie do badania USG</h2>
           <p class="content-paragraph">Prosimy o dokładne przeczytanie poniższych instrukcji. Prawidłowe przygotowanie do badania jest kluczowe do prawidłowej diagnozy.</p>
           <div class="inner-header"><strong>USG jamy brzusznej</strong></div>
-          <ul class="content-paragraph">
+          <ul role="list" class="content-paragraph">
             <li>Pacjent powinien być na czczo, z wyjątkiem gdy badanie będzie wykonane po godz. 13 można spożyć lekkie śniadanie ( jogurt, owsianka, bułeczka, herbata), minimum 5 godzin na czczo</li>
             <li>Dzień przed badaniem powinno się spożyć „lekką” kolacje oraz nie pić napojów gazowanych</li>
             <li>W dniu badania oraz dzień wcześniej można przyjąć preparat z simetikonem np. Espumisan, Espumax 125, Ulgix, 1x2 caps. wieczorem oraz 1x2 caps. rano ( zmniejsza ilość gazów w jelitach, dzięki czemu ułatwia oglądanie narządów jamy brzusznej)</li>
           </ul>
           <div class="inner-header"><strong>USG nerek, dróg moczowych i gruczołu krokowego (prostaty)</strong></div>
-          <ul class="content-paragraph">
+          <ul role="list" class="content-paragraph">
             <li>przed badaniem należy wypić ok. 1 litra wody mineralnej niegazowanej (konieczne jest wypełnienie pęcherza moczowego)</li>
           </ul>
           <div class="inner-header"><strong>USG tarczycy</strong></div>
-          <ul class="content-paragraph">
+          <ul role="list" class="content-paragraph">
             <li>nie powinno się spożywać obfitego posiłku przed badaniem</li>
           </ul>
+        </div>
+        <div class="closed-info">
+          <div class="closed-info__h">Gabinet USG nieczynny</div>
+          <div class="closed-info__p">Przychodnia nie wykonuje już usług USG</div>
+          <div class="closed-info__button-holder">
+            <a href="#" class="button is-closed-info w-inline-block">
+              <div>Wróć do strony głównej</div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -106,7 +115,7 @@
       </div>
     </div>
   </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=55d576c4965aff177731ada8" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="https://cdn.rawgit.com/carhartl/jquery-cookie/master/src/jquery.cookie.js"></script>
