@@ -1383,6 +1383,19 @@ a {
   padding-bottom: 11px;
 }
 
+.kontakt-email {
+  font-size: 20px;
+  text-align: center;
+}
+
+.kontakt-email.is-h {
+  line-height: 1.25em;
+}
+
+.kontakt-emails {
+  padding-top: 18px;
+}
+
 html.w-mod-js *[data-ix="initial-opacity"] {
   opacity: 0;
   -webkit-transform: scale(0.1, 0.1);
@@ -1411,11 +1424,13 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     padding-top: 15px;
     padding-bottom: 20px;
   }
+
   .nav-menu {
     margin-top: 0px;
     padding: 19px;
     background-color: #edeef0;
   }
+
   .nav-link {
     margin: 0px 0px 8px;
     padding-top: 8px;
@@ -1427,26 +1442,32 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     background-color: #fff;
     text-align: center;
   }
+
   .nav-link.w--current {
     border-bottom-width: 1px;
     border-bottom-color: #e0e0e0;
   }
+
   .nav-link.w--open {
     border-bottom-width: 1px;
     border-bottom-color: #fff;
     background-color: #fff;
   }
+
   .nav-link.last-button {
     margin-right: 0px;
     margin-left: 0px;
   }
+
   .nav-link.last-button.w--current {
     border-bottom-width: 1px;
     border-bottom-color: #e0e0e0;
   }
+
   .imagegrid_left {
     background-position: 28% 50%;
   }
+
   .menu_button_active {
     position: relative;
     margin-top: 8px;
@@ -1454,9 +1475,11 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     padding: 10px 13px 6px 10px;
     border-radius: 3px;
   }
+
   .menu_button_active.w--open {
     background-color: #303e7a;
   }
+
   .bubble-box {
     width: 70px;
     height: 70px;
@@ -1464,10 +1487,12 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     font-size: 10px;
     line-height: 9px;
   }
+
   .name {
     font-size: 14px;
     line-height: 18px;
   }
+
   .dropdown-menu.w--open {
     margin-top: -9px;
     margin-bottom: 10px;
@@ -1477,34 +1502,42 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     box-shadow: 0 0 0 0 #000;
     opacity: 1;
   }
+
   .menu_icon {
     float: left;
     font-size: 30px;
   }
+
   .ale-gramy-logo {
     height: 60px;
   }
+
   .menu-label {
     padding-top: 4px;
     padding-left: 5px;
     float: left;
     font-size: 18px;
   }
+
   .footer-right-column {
     text-align: center;
   }
+
   .nav-phone-box {
     margin-top: 7px;
     margin-left: 10px;
   }
+
   .hero_container {
     padding-top: 0px;
     padding-bottom: 83px;
   }
+
   .footer-left {
     margin-bottom: 11px;
     text-align: center;
   }
+
   .dropdown-reset {
     margin-right: 0px;
     margin-left: 0px;
@@ -1515,124 +1548,156 @@ html.w-mod-js *[data-ix="initial-display-none"] {
   .button.call-us-now {
     font-size: 18px;
   }
+
   .navbar {
     padding-right: 16px;
     padding-left: 16px;
   }
+
   .hero_text {
     margin-top: 69px;
   }
+
   .opinions-row {
     margin-top: 120px;
   }
+
   .opinions-image {
     margin-bottom: 60px;
   }
+
   .opinion-container {
     padding-bottom: 32px;
     border-bottom-style: none;
   }
+
   .footer {
     padding-top: 0px;
     font-size: 11px;
     text-align: center;
   }
+
   .footer-text {
     padding-top: 6px;
     padding-right: 0px;
   }
+
   .footer-text.padding-right {
     padding-right: 0px;
   }
+
   .float-right {
     width: 90%;
     padding-top: 0px;
     padding-left: 0px;
     float: none;
   }
+
   .link-block {
     width: 90%;
     height: 29px;
     padding-top: 3px;
     padding-bottom: 11px;
   }
+
   .menu_button_active.w--open {
     color: #fff;
   }
+
   .dropdown-link {
     font-size: 14px;
     text-align: center;
   }
+
   .container123-189 {
     margin-top: 44px;
     padding-right: 18px;
     padding-left: 18px;
   }
+
   .ale-gramy-logo {
     height: 50px;
   }
+
   .mobile-call-us {
     padding-bottom: 228px;
   }
+
   .footer-right-column {
     text-align: center;
   }
+
   .oferta_p {
     font-size: 18px;
   }
+
   .hero_container {
     padding-right: 24px;
     padding-left: 24px;
   }
+
   .news-container {
     padding: 4px 23px 168px;
   }
+
   .footer-left {
     margin-bottom: 0px;
   }
+
   .phone-box {
     padding: 14px;
   }
+
   .contact-phone-label.in-top-right {
     margin-right: 16px;
     margin-left: 0px;
     float: left;
   }
+
   .contact-phone-link {
     font-size: 14px;
   }
+
   .contact-phone-link:hover {
     text-decoration: underline;
   }
+
   .in-subnav {
     display: inline-block;
     margin-bottom: 0px;
     float: none;
     font-size: 18px;
   }
+
   .subnav-tabs-box {
     padding-bottom: 5px;
   }
+
   .subnav-link {
     padding-top: 6px;
     padding-bottom: 6px;
   }
+
   .subnav-phones {
     display: inline-block;
     margin-bottom: 17px;
     float: none;
   }
+
   .additional-contacts {
     margin-top: 24px;
     padding: 11px;
   }
+
   .column-reset-padding {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .column-reset-padding.subhead-center {
     text-align: center;
   }
+
   .closed-info {
     background-position: 97% 11%;
     background-size: 140px;
@@ -1646,24 +1711,30 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     margin-right: auto;
     margin-left: auto;
   }
+
   .button.in_cookies {
     float: none;
   }
+
   .button.in-hero {
     display: block;
     margin-right: auto;
     margin-left: auto;
     float: none;
   }
+
   .navbar {
     padding-bottom: 75px;
   }
+
   .nav-menu {
     top: 81px;
   }
+
   .hero_img {
     margin-bottom: 92px;
   }
+
   .hero_text {
     height: 144px;
     margin-top: 26px;
@@ -1671,78 +1742,99 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     font-size: 36px;
     line-height: 36px;
   }
+
   .imagegrid_left {
     height: 475px;
   }
+
   .imagegrid_right {
     height: 595px;
     background-position: 50% 50%;
   }
+
   .images_overlay {
     margin-top: 111px;
     margin-left: 6%;
   }
+
   .opinions-row {
     margin-top: 85px;
     text-align: center;
   }
+
   .opinions-image {
     margin-bottom: 18px;
   }
+
   .opinion-text {
     padding-right: 10%;
     padding-left: 10%;
     font-size: 20px;
   }
+
   .quote-mark {
     font-size: 130px;
   }
+
   .opinion-container {
     padding-bottom: 39px;
   }
+
   .float-right {
     padding-right: 21px;
     padding-left: 21px;
   }
+
   .facebook-plugin {
     margin-top: 64px;
   }
+
   .repertuar-container {
     padding-bottom: 199px;
   }
+
   .opinions-container {
     padding-bottom: 358px;
   }
+
   .facebook-post-embed {
     margin-top: 30px;
   }
+
   .container123-189.kontakt {
     padding-right: 8px;
     padding-left: 8px;
   }
+
   .mobile-call-us {
     padding-top: 82px;
   }
+
   .container-for-facebook {
     padding-bottom: 255px;
     text-align: center;
   }
+
   .oferta-_image {
     margin-top: 20px;
     margin-bottom: -2px;
   }
+
   .bottom-button {
     margin-top: 31px;
   }
+
   .strona-uzywa {
     float: none;
   }
+
   .cookie-pop {
     right: 0px;
     bottom: 0px;
     width: 100%;
     text-align: center;
   }
+
   .nav-phone-box {
     position: absolute;
     left: -4px;
@@ -1751,50 +1843,64 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     width: 100%;
     text-align: center;
   }
+
   .nav-phone-label {
     margin-top: 9px;
   }
+
   .hero_container {
     padding-top: 0px;
     padding-bottom: 40px;
   }
+
   .hero-section {
     height: 420px;
     margin-bottom: 169px;
   }
+
   .hero-slide-1 {
     background-position: 57% 50%;
   }
+
   .hero-slide-2 {
     background-position: 59% 50%;
   }
+
   .hero-slide-2.third {
     background-position: 58% 50%;
   }
+
   .nav-phone-link {
     height: 24px;
     text-align: center;
   }
+
   .phone-box {
     padding: 25px;
   }
+
   .phone-title {
     font-size: 18px;
   }
+
   .contact-phone-label {
     margin-bottom: 0px;
     font-size: 14px;
   }
+
   .contact-phone-link {
     color: #fff;
     text-decoration: underline;
   }
+
   .subnav-head-box {
     margin-bottom: 0px;
   }
+
   .in-subnav.medstyl {
     font-size: 16px;
   }
+
   .subnav-link {
     display: block;
     margin-right: 0px;
@@ -1802,29 +1908,37 @@ html.w-mod-js *[data-ix="initial-display-none"] {
     clear: none;
     text-align: center;
   }
+
   .smaller-content-text {
     font-size: 12px;
   }
+
   .content-paragraph {
     font-size: 14px;
   }
+
   .additional-contacts-button {
     padding-bottom: 2px;
   }
+
   .contact-text-above-map {
     margin-top: 18px;
     font-size: 16px;
   }
+
   .red-link {
     color: #b01e25;
   }
+
   .nav-facebook-block {
     line-height: 20px;
     text-align: center;
   }
+
   .maps-img-holder {
     margin-top: 4px;
   }
+
   .closed-info {
     padding-top: 76px;
     background-position: 25px 16px;
